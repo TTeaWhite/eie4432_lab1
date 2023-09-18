@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/order.css">
+        <title>
+            21102437d_Drink Ordering Form
+        </title>
+    </head>
+    <body>
+        <header><h1>Drink Ordering Form</h1></header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li class="currentPage">
+                    <a href="order.html">
+                        Order
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Menu
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <form action="#" method="post">
+                <div class="name-input">
+                    <label for="Name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="drink-select">
+                    <label for="drink">Drink:</label>
+                    <select name="drink" id="drink">
+                        <option value="Bubble Milktea">Bubble Milktea</option>
+                        <option value="Iced Latte">Iced Latte</option>
+                    </select>
+                </div>
+                <div class="size-select">
+                    <label for="size">Size:</label>
+                    <input type="radio" name="small" id="small">Small
+                    <input type="radio" name="medium" id="medium">Medium
+                    <input type="radio" name="large" id="large">Large
+                </div>
+                <div class="submission">
+                    <input type="submit" value="Place Order">
+                </div>
+            </form>
+        </main>
+        <footer>
+            21102437d CHEN ZHE - EIE4432 Lab 1 Project
+        </footer>
+    </body>
+</html>
