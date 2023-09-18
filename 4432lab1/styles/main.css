@@ -1,0 +1,73 @@
+body{
+    font-family: Arail,sans-serif;
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+}
+header{
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+}
+nav ul{
+    list-style: none;
+    margin:  0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: azure;
+}
+nav ul li{
+    display: inline;
+    padding-top: 12px;  
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3498db;
+}
+nav ul li:hover{
+    background-color: #34384b;
+}
+li.currentPage{
+    background-color: #34982b;
+    
+}
+main{
+    flex: 1;
+    padding: 20px;
+}
+.section-header{
+    text-align: center;
+}
+.featured_drinks{
+    display: flex;
+    justify-content: center;
+}
+.drink-container{
+    display: flex;
+}
+.drink{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.drink img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
